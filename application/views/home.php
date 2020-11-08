@@ -2,38 +2,7 @@
 $this->load->view('layout/header');
 ?>
 
-<!--Mobile contact-->
-<div class="popup-modal1">
-    <div class="modal" id="menu-popup">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="common-heading">
-                        <h4 class="mt0 mb0">Write a Message</h4>		
-                    </div>
-                    <button type="button" class="closes" data-dismiss="modal">&times;</button></div>
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <div class="form-block fdgn2 mt10 mb10">
-                        <form action="#" method="post" name="feedback-form">
-                            <div class="fieldsets row">
-                                <div class="col-md-12"><input type="text" placeholder="Full Name" name="name"></div>
-                                <div class="col-md-12"><input type="email" placeholder="Email Address" name="email"></div>
-                                <div class="col-md-12"><input type="number" placeholder="Contact Number" name="phone"></div>
-                                <div class="col-md-12"><input type="text" placeholder="Subject" name="subject"></div>
-                                <div class="col-md-12"><textarea placeholder="Message" name="message"></textarea></div>
-                            </div>
-                            <div class="fieldsets mt20 pb20">
-                                <button type="submit" name="submit" class="lnk btn-main bg-btn" data-dismiss="modal">Submit <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--Mobile contact-->
+
 
 <!--End Header -->
 <!--Start Hero-->
@@ -466,17 +435,22 @@ $this->load->view('layout/header');
                 <div class="form-block">
                     <form action="#" method="post" name="feedback-form">
                         <div class="fieldsets row">
-                            <div class="col-md-6"><input type="text" placeholder="Full Name" name="name"></div>
-                            <div class="col-md-6"><input type="email" placeholder="Email Address" name="email"></div>
+                            <div class="col-md-6">
+                                <label for="inputname">Your Name</label>
+                                <input type="text" placeholder="Full Name" name="name" id="inputname"></div>
+                            <div class="col-md-6">
+                                <label for="inputemail">Your Email</label>
+                                <input type="email" placeholder="Email Address" name="email" id="inputemail">
+                            </div>
                         </div>
                         <div class="fieldsets row">
-                            <div class="col-md-6"><input type="number" placeholder="Contact Number" name="phone"></div>
-                            <div class="col-md-6"><input type="text" placeholder="Subject" name="subject"></div>
+                            <div class="col-md-6"><label for="inputcontact">Your Contact No.</label><input id="inputcontact" type="number" placeholder="Contact Number" name="phone"></div>
+                            <div class="col-md-6"><label for="inputsubject">Subject</label><input type="text" id="inputsubject" placeholder="Subject" name="subject"></div>
                         </div>
-                        <div class="fieldsets"><textarea placeholder="Message" name="message"></textarea></div>
+                        <div class="fieldsets"><label for="inputmessage">Type Here</label><textarea placeholder="Message" name="message" id="inputmessage"></textarea></div>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="customCheck" name="example1" checked="checked">
-                            <label class="custom-control-label" for="customCheck">I agree to the <a href="javascript:void(0)">Terms &amp; Conditions</a> of Costco Int'l Ltd.</label>
+                            <label class="custom-control-label" for="customCheck">I agree to the <a href="#">Terms &amp; Conditions</a> of Costco Int'l </label>
                         </div>
                         <div class="fieldsets mt20"> <button type="submit" name="submit" class="lnk btn-main bg-btn">Submit <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button> </div>
                         <p class="trm"><i class="fas fa-lock"></i>We hate spam, and we respect your privacy.</p>
