@@ -24,6 +24,8 @@
         <!-- template-style-->
         <link href="<?php echo base_url(); ?>assets/theme/css/style.css" rel="stylesheet">
         <link href="<?php echo base_url(); ?>assets/theme/css/responsive.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/theme/css/custom.css" rel="stylesheet">
+
     </head>
 
 </head>
@@ -48,12 +50,12 @@
                     <ul class="nav-list">
                         <li class=""><a href="#" class="menu-links">INSIGHTS</a></li>
                         <li class=" "><a href="#" class="menu-links">SERVICES</a></li>
-                         <li class=" "><a href="#" class="menu-links">INDUSTRIES</a></li>
-                         <li class=" "><a href="#" class="menu-links">WORKS</a></li>
-                            <li class=" "><a href="#" class="menu-links">CONTACT US</a></li>
+                        <li class=" "><a href="#" class="menu-links">INDUSTRIES</a></li>
+                        <li class=" "><a href="#" class="menu-links">WORKS</a></li>
+                        <li class=" "><a href="#" class="menu-links">CONTACT US</a></li>
                         <li><a href="#" class="menu-links right-bddr">&nbsp;</a>
                             <!--menu right border-->
-                      
+
                         <li><a href="get-quote.html" class="btn-br bg-btn3 btshad-b2 lnk">Request A Quote <span class="circle"></span></a> </li>
                     </ul>
                 </div>
@@ -65,7 +67,7 @@
                 </div>
             </div>
             <!--Mobile Menu-->
-             <nav id="main-nav">
+            <nav id="main-nav">
                 <ul class="first-nav">
                     <li class=""><a href="#" class="menu-links">INSIGHTS</a></li>
                     <li class=" "><a href="#" class="menu-links">SERVICES</a></li>
@@ -73,7 +75,7 @@
                     <li class=" "><a href="#" class="menu-links">WORKS</a></li>
                     <li class=" "><a href="#" class="menu-links">CONTACT US</a></li>
                 </ul>
-            
+
             </nav>
         </div>
     </header>
