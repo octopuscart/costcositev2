@@ -10,6 +10,21 @@
         <?php
         meta_tags();
         ?>
+        <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Sofware Company",
+      "name": "Costco International Limited",
+      "author": {
+        "@type": "Person",
+        "name": "Mr. Bari"
+      },
+      "datePublished": "2020-11-10",
+      "description": "Top Custom Web and App Development Company",
+      "prepTime": "PT20M"
+    }
+        </script>
+
         <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/theme/rs-plugin/css/settings.css" media="screen" />
 
@@ -42,7 +57,7 @@
     <header class="nav-bg-b main-header navfix fixed-top menu-white header-pr">
         <div class="container-fluid m-pad">
             <div class="menu-header">
-                <div class="dsk-logo"><a class="nav-brand" href="<?php echo site_url("/");?>">
+                <div class="dsk-logo"><a class="nav-brand" href="<?php echo site_url("/"); ?>">
                         <img src="<?php echo base_url(); ?>assets/images/white-logo.png" alt="Logo" class="mega-white-logo"/>
                         <img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Logo" class="mega-darks-logo"/>
                     </a></div>
