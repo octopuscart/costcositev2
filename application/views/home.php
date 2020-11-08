@@ -11,8 +11,18 @@ $this->load->view('layout/header');
         <div class="row">
             <div class="col-lg-5">
                 <div class="hero-heading-sec">
-                    <h2 class="wow fadeIn" data-wow-delay="0.3s"><span>Web Development.</span> <span>Apps Development.</span> <span>Graphic Designing.</span> <span> Digital Marketing.</span><span>IT CONSULTANCY.</span><span> ERP SOLUTIONS.</span></h2>
-                    <p class="wow fadeIn" data-wow-delay="0.6s">Website and App development solution for transforming and innovating businesses.</p>
+                    <h2 class="wow fadeIn" data-wow-delay="0.3s">
+                        <span>Artificial intelligence.</span>
+                        <span>IT CONSULTANCY.</span>
+                        <span> ERP SOLUTIONS.</span>
+                        <span>Software Development.</span>
+                        <span>Apps Development.</span> 
+                        <span> Digital Marketing.</span>
+                        <span>Graphic Designing.</span> 
+
+
+                    </h2>
+                    <p class="wow fadeIn" data-wow-delay="0.6s">Website and App development solutions for transforming and innovating businesses.</p>
                     <a href="#" class="btn-main bg-btn lnk wow fadeIn"  data-wow-delay="0.8s">View Case Studies <i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
                 </div>
             </div>
@@ -29,7 +39,7 @@ $this->load->view('layout/header');
                                         <div class="image-sr-mm">
                                             <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/mob-service-item3.png">
                                         </div>
-                                        <div class="title-serv-c"><span>Web Design & Development</span> Solution</div>
+                                        <div class="title-serv-c"><span>Software Design & Development</span> Solutions</div>
                                     </div></a>
                             </div>
                             <div class="service-slide card-bg-b" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
@@ -37,7 +47,7 @@ $this->load->view('layout/header');
                                         <div class="image-sr-mm">
                                             <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/app-develop.png">
                                         </div>
-                                        <div class="title-serv-c"><span>Custom</span> Mobile  App Solution</div>
+                                        <div class="title-serv-c"><span>Custom</span> Mobile  App Solutions</div>
                                     </div></a>
                             </div>
                             <div class="service-slide card-bg-c" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
@@ -61,7 +71,7 @@ $this->load->view('layout/header');
                                         <div class="image-sr-mm">
                                             <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/marketing.png">
                                         </div>
-                                        <div class="title-serv-c"><span>Business Marketing</span> Solution</div>
+                                        <div class="title-serv-c"><span>Business Marketing</span> Solutions</div>
                                     </div></a>
                             </div>
                             <div class="service-slide card-bg-f" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
@@ -70,7 +80,7 @@ $this->load->view('layout/header');
                                             <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/seo.png">
                                         </div>
                                         <div class="title-serv-c"><span>SEO & Digital
-                                                Marketing</span> Solution</div>
+                                                Marketing</span> Solutions</div>
                                     </div></a>
                             </div>
                         </div>
@@ -98,110 +108,43 @@ $this->load->view('layout/header');
                 </div>
             </div>
 
+            <?php
+            $solutionsList = [
+                array("title" => "Artificial intelligence", "image" => "ai-icon.svg", "class" => "cd1"),
+                array("title" => "Business ERP Solutions", "image" => "icon-6.png", "class" => "cd2"),
+                array("title" => "IT Solutions & Consultant", "image" => "icon-12.png", "class" => "cd3"),
+                array("title" => "Business Hosting & Email Services", "image" => "hosing-icon.svg", "class" => "cd4"),
+                array("title" => "Software Design & Development", "image" => "webdevsvg.svg", "class" => "cd5"),
+                array("title" => "Mobile App Developmen", "image" => "mobileapp.svg", "class" => "cd6"),
+                array("title" => "Social Media Marketing", "image" => "icon-1.png", "class" => "cd7"),
+                array("title" => "Digital Marketing", "image" => "icon-2.png", "class" => "cd8"),
+                array("title" => "Ecommerce Development", "image" => "icon-3.png", "class" => "cd1"),
+                array("title" => "Graphics Designing", "image" => "grf-icon.png", "class" => "cd2"),
+                array("title" => "Video Editing", "image" => "icon-4.png", "class" => "cd3"),
+                array("title" => "Email Marketing", "image" => "eml-mkrt.svg", "class" => "cd4"),
+                array("title" => "Direct Marketing", "image" => "d-mkrt.svg", "class" => "cd5"),
+                array("title" => "Blogging - Content Writing", "image" => "blog.svg", "class" => "cd6"),
+                array("title" => "Business Accounting", "image" => "icon-5.png", "class" => "cd7"),
+                array("title" => "Education Consultant Services", "image" => "icon-7.png", "class" => "cd8"),
+            ];
+            ?>
+
             <div class="col-lg-12">
                 <div class="work-card-set">
-                    <div  class="icon-set wow fadeIn" data-wow-delay=".2s">
-                        <div class="work-card cd6">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/ai-icon.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Artificial intelligence</p>
-                        </div>
-                    </div>
-                    <div  class="icon-set wow fadeIn" data-wow-delay=".2s">
-                        <div class="work-card cd8">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/hosing-icon.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Web Hosting & Email Service</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd4">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/mobileapp.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Web Design & Development</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd5">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/mobileapp.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Mobile App Development</p>
-                        </div>
-                    </div>
-                    <div  class="icon-set wow fadeIn" data-wow-delay=".2s">
-                        <div class="work-card cd1">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-1.png" alt="Industries" /></div>
-                            <p>Social Networking</p>
-                        </div>
-                    </div>
-                    <div  class="icon-set wow fadeIn" data-wow-delay=".4s">
-                        <div class="work-card cd6">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-2.png" alt="Industries" /></div>
-                            <p>Digital Marketing</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay=".6s">
-                        <div class="work-card cd8">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-3.png" alt="Industries" /></div>
-                            <p>Ecommerce Development</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay=".8s">
-                        <div class="work-card cd4">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-4.png" alt="Industries" /></div>
-                            <p>Video Editing</p>
-                        </div>
-                    </div>
 
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd11">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/eml-mkrt.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Email Marketing</p>
+                    <?php
+                    foreach ($solutionsList as $key => $value) {
+                        ?>
+                        <div class="icon-set wow fadeIn" data-wow-delay="2.4s">
+                            <div class="work-card <?php echo $value['class']; ?>">
+                                <div class="icon-bg serviceicon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/<?php echo $value['image']; ?>"  alt="Industries" /></div>
+                                <p><?php echo $value['title']; ?></p>
+                            </div>
                         </div>
-                    </div>
+                        <?php
+                    }
+                    ?>
 
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd1">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/d-mkrt.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Direct Marketing</p>
-                        </div>
-                    </div>
-
-
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd6">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/blog.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Blogging - Content Writing</p>
-                        </div>
-                    </div>
-
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd8">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/grf-icon.png" style="height: 62px;" alt="Industries" /></div>
-                            <p>Graphics Designing</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd5">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-5.png" alt="Industries" /></div>
-                            <p>Business Accounting</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay="1.2s">
-                        <div class="work-card cd11">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-6.png" alt="Industries" /></div>
-                            <p>Business ERP Solution</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay="1.4s">
-                        <div class="work-card cd1">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-7.png" alt="Industries" /></div>
-                            <p>Education Consultant Service</p>
-                        </div>
-                    </div>
-
-                    <div class="icon-set wow fadeIn" data-wow-delay="2.4s">
-                        <div class="work-card cd6">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-12.png" alt="Industries" /></div>
-                            <p>IT Solutions & Consultant</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -255,7 +198,7 @@ $this->load->view('layout/header');
             <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.2s">
                 <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
                     <div class="s-card-icon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/branding.svg" alt="service" class="img-fluid"/></div>
-                    <h4>Business & Branding Service</h4>
+                    <h4>Business & Branding Services</h4>
                     <p>We provide a robust and professional toolset to build ultra-modern<br/> experiences of working.</p>
                 </div>
             </div>
@@ -276,7 +219,7 @@ $this->load->view('layout/header');
             <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.8s">
                 <div class="s-block mb0" data-tilt data-tilt-max="5" data-tilt-speed="1000">
                     <div class="s-card-icon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/marketing.svg" alt="service" class="img-fluid"/></div>
-                    <h4>Digital Marketing Service</h4>
+                    <h4>Digital Marketing Services</h4>
                     <p>We analys brand positioning and create more custom strategy that brings in desired results. </p>
                 </div>
             </div>
