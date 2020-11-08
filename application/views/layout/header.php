@@ -42,7 +42,7 @@
     <header class="nav-bg-b main-header navfix fixed-top menu-white header-pr">
         <div class="container-fluid m-pad">
             <div class="menu-header">
-                <div class="dsk-logo"><a class="nav-brand" href="digital-agency.html">
+                <div class="dsk-logo"><a class="nav-brand" href="<?php echo site_url("/");?>">
                         <img src="<?php echo base_url(); ?>assets/images/white-logo.png" alt="Logo" class="mega-white-logo"/>
                         <img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Logo" class="mega-darks-logo"/>
                     </a></div>
@@ -56,7 +56,7 @@
                         <li><a href="#" class="menu-links right-bddr">&nbsp;</a>
                             <!--menu right border-->
 
-                        <li><a href="get-quote.html" class="btn-br bg-btn3 btshad-b2 lnk">Request A Quote <span class="circle"></span></a> </li>
+                        <li><a href="#" class="btn-br bg-btn3 btshad-b2 lnk">Request A Quote <span class="circle"></span></a> </li>
                     </ul>
                 </div>
                 <div class="mobile-menu2">
