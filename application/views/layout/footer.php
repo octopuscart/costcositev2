@@ -71,7 +71,7 @@
 
                             <p>Email <span style='display: block!important'> 
                                     <a href="mailto:sales@costcointernational.com" >sales@costcointernational.com</a><br/>
-                                    <a href="mailto:info@costcointernational.com" >info@costcointernational.com</a>
+                                    <a href="mailto:info@costcointernational.com" style='    margin-top: 8px;  float: left;' >info@costcointernational.com</a>
                                 </span>
 
                             </p>
