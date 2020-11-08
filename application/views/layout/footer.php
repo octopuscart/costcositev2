@@ -20,7 +20,7 @@
                         <p>Flat B, 4th Floor, Yen Chun Mansion,<br/>
                             Block 18-26 Portland Street,<br/>
                             Yau Ma Tei, Kowloon, Hong Kong</p>
-                        <a href="javascript:void(0)" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
+                        <a href="#" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                     <div class="office-text">
                         <h4>Texas, U.S.A</h4>
                         <p>2363 Wise RD, <br/> Grand Prairie, <br/>Texas 75052, USA</p>
-                        <a href="javascript:void(0)" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
+                        <a href="#" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                     <div class="office-text">
                         <h4>Stoke Orchard, UK</h4>
                         <p>The Old Mill,Bandy Lane,  <br/>Stoke Orchard, Gloucestershire,  <br/>GL 52 7SJ, U.K</p>
-                        <a href="javascript:void(0)" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
+                        <a href="#" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
