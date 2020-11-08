@@ -148,6 +148,8 @@
 <script src="<?php echo base_url(); ?>assets/theme/js/preloader.js"></script>
 <!--common script file-->
 <script src="<?php echo base_url(); ?>assets/theme/js/main.js"></script>
+<script src="<?php echo base_url(); ?>assets/theme/js/custom.js"></script>
+
 </body>
 
 </html>
