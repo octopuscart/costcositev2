@@ -170,12 +170,7 @@ $this->load->view('layout/header');
                     </p>
                     <p class="quote">With a strong focus on Retail, Consumer Goods and Logistics industries, we are creating strategic long term relationships with our customers, making a difference to them through our offices in many countries across US, Europe and Asia. </p>
                     <div class="user- mt30">
-                        <div class="media">
-                            <div class="media-body user-info v-center">
-                                <h5>Syed Imtiaz Bari</h5>
-                                <p>Founder of <span>Costco International Ltd.</span></p>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
