@@ -43,7 +43,7 @@
                     </div>
                     <div class="office-text">
                         <h4>Stoke Orchard, UK</h4>
-                        <p>The Old Mill,Bandy Lane,  <br/>Stoke Orchard, Gloucestershire,  <br/>GL 52 7SJ, U.K</p>
+                        <p>The Old Mill, Bandy Lane,  <br/>Stoke Orchard, Gloucestershire,  <br/>GL 52 7SJ, U.K</p>
                         <a href="#" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                     <a class="navbar-brand  " href="#"> <img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Logo" width="200" /></a>
                     <p>Costco International means “Long Term Immortal Relationships”. It also defines a mathematical equation for algebraic parenthesis which denotes the technical excellence and the domain strength of our team.</p>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <h5>Contact Us</h5>
                     <ul class="footer-address-list ftr-details">
                         <li>
@@ -83,7 +83,7 @@
                         </li>
                         <li>
                             <span><i class="fas fa-map-marker-alt"></i></span>
-                            <p>Head Office <span> Flat B, 4th Floor,<br/> Yen Chun Mansion,<br/>
+                            <p> Office In Asia<span> Flat B, 4th Floor,<br/> Yen Chun Mansion,<br/>
                                     Block 18-26 Portland Street,<br/>
                                     Yau Ma Tei, Kowloon, Hong Kong</span></p>
                         </li>
@@ -92,26 +92,28 @@
                 <div class="col-lg-3 col-sm-6">
                     <h5>Services</h5>
                     <ul class="footer-address-list link-hover" style='text-transform: capitalize'>
-                        <li class=""><a href="#" class="menu-links">Web Development</a></li>
-                        <li class=""><a href="#" class="menu-links">App Development</a></li>
-                        <li class=""><a href="#" class="menu-links">Graphics Designing</a></li>
-                        <li class=""><a href="#" class="menu-links">Digital Marketing</a></li>
+                        <li class=""><a href="#" class="menu-links">Artificial Intelligence</a></li>
                         <li class=""><a href="#" class="menu-links">IT Consultancy</a></li>
                         <li class=""><a href="#" class="menu-links">ERP Solutions</a></li>
+                        <li class=""><a href="#" class="menu-links">Software Development</a></li>
+                        <li class=""><a href="#" class="menu-links">Social Media Marketing</a></li>
+                        <li class=""><a href="#" class="menu-links">Apps Development</a></li>
+                        <li class=""><a href="#" class="menu-links">Digital Marketing</a></li>
+                        <li class=""><a href="#" class="menu-links">Graphics Designing</a></li>
 
                     </ul>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-2 col-sm-6">
                     <h5>Company</h5>
                     <ul class="footer-address-list link-hover" style='text-transform: capitalize'>
                         <li class=""><a href="#" class="menu-links"> Insights</a></li>
                         <li class=" "><a href="#" class="menu-links"> Services</a></li>
                         <li class=" "><a href="#" class="menu-links"> Industries</a></li>
                         <li class=" "><a href="#" class="menu-links"> Works</a></li>
-                        <li class=" "><a href="#" class="menu-links">Contact Uss</a></li>
+                        <li class=" "><a href="#" class="menu-links">Contact Us</a></li>
                     </ul>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -129,7 +131,7 @@
 
                         </div>
                         <div class="footer-">
-                            <p>Copyright &copy; <?php echo date('Y');?> Costco Int'l Ltd. All rights reserved. </p>
+                            <p>Copyright &copy; <?php echo date('Y'); ?> Costco Int'l Ltd. All rights reserved. </p>
                         </div>
                     </div>
                 </div>

@@ -12,77 +12,111 @@ $this->load->view('layout/header');
             <div class="col-lg-5">
                 <div class="hero-heading-sec">
                     <h2 class="wow fadeIn" data-wow-delay="0.3s">
-                        <span>Artificial intelligence.</span>
-                        <span>IT CONSULTANCY.</span>
-                        <span> ERP SOLUTIONS.</span>
-                        <span>Software Development.</span>
-                        <span>Apps Development.</span> 
-                        <span> Digital Marketing.</span>
-                        <span>Graphic Designing.</span> 
-
-
+                        <span>Artificial intelligence</span>
+                        <span>IT CONSULTANCY</span>
+                        <span>ERP SOLUTIONS</span>
+                        <span>Software Development</span>
+                        <span>Social Media Marketing</span>
+                        <span>Apps Development</span> 
+                        <span>Digital Marketing</span>
+                        <span>Graphics Designing</span> 
                     </h2>
-                    <p class="wow fadeIn" data-wow-delay="0.6s">Website and App development solutions for transforming and innovating businesses.</p>
+                    <p class="wow fadeIn" data-wow-delay="0.6s">Software solutions for transforming and innovating businesses.</p>
                     <a href="#" class="btn-main bg-btn lnk wow fadeIn"  data-wow-delay="0.8s">View Case Studies <i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
                 </div>
             </div>
             <div class="col-lg-7">
                 <div class="hero-content-sec wow fadeIn" data-wow-delay="0.8s">
-                    <div class="video-intro-pp"><a class="video-link play-video" href="#"><span class="triangle-play"></span></a></div>
+                    <div class="video-intro-pp"><a class="video-link play-video" href="https://www.youtube.com/watch?v=FTBek___Aco?autoplay=1&amp;rel=0"><span class="triangle-play"></span></a></div>
                     <div class="title-hero-oth"><p>We design digital solutions <span>for brands and companies</span></p></div>
                 </div>
                 <div class="hero-right-scmm">
                     <div class="hero-service-cards wow fadeInRight" data-wow-duration="2s">
                         <div class="owl-carousel service-card-prb">
-                            <div class="service-slide card-bg-a" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
+                            <div class="service-slide card-bg-a" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
                                     <div class="service-card-hh">
                                         <div class="image-sr-mm">
                                             <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/mob-service-item3.png">
                                         </div>
                                         <div class="title-serv-c"><span>Software Design & Development</span> Solutions</div>
-                                    </div></a>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="service-slide card-bg-b" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
+                            <div class="service-slide card-bg-b" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
                                     <div class="service-card-hh">
                                         <div class="image-sr-mm">
                                             <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/app-develop.png">
                                         </div>
-                                        <div class="title-serv-c"><span>Custom</span> Mobile  App Solutions</div>
-                                    </div></a>
+                                        <div class="title-serv-c"><span>Custom</span> Mobile  Apps Solutions</div>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="service-slide card-bg-c" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
+                            <div class="service-slide card-bg-c" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
                                     <div class="service-card-hh">
                                         <div class="image-sr-mm">
                                             <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/service-img-2.png">
                                         </div>
-                                        <div class="title-serv-c"><span>IT Solutions & Consultant</span> Services</div>
-                                    </div></a>
+                                        <div class="title-serv-c"><span>IT Solutions & Consultancy</span> Services</div>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="service-slide card-bg-d" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
+                            <div class="service-slide card-bg-d" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
                                     <div class="service-card-hh">
                                         <div class="image-sr-mm">
                                             <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/car-rental.png">
                                         </div>
                                         <div class="title-serv-c"><span>Integrated communications</span> Services</div>
-                                    </div></a>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="service-slide card-bg-e" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
+                            <div class="service-slide card-bg-e" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
                                     <div class="service-card-hh">
                                         <div class="image-sr-mm">
                                             <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/marketing.png">
                                         </div>
                                         <div class="title-serv-c"><span>Business Marketing</span> Solutions</div>
-                                    </div></a>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="service-slide card-bg-f" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
+                            <div class="service-slide card-bg-f" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
                                     <div class="service-card-hh">
                                         <div class="image-sr-mm">
                                             <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/seo.png">
                                         </div>
                                         <div class="title-serv-c"><span>SEO & Digital
                                                 Marketing</span> Solutions</div>
-                                    </div></a>
+                                    </div>
+                                </a>
                             </div>
+
+                            <div class="service-slide card-bg-c" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
+                                    <div class="service-card-hh">
+                                        <div class="image-sr-mm">
+                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/videoediting.png">
+                                        </div>
+                                        <div class="title-serv-c"><span>Graphics & Video Editing</span> Services</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="service-slide card-bg-d" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
+                                    <div class="service-card-hh">
+                                        <div class="image-sr-mm">
+                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/service-img-3.png">
+                                        </div>
+                                        <div class="title-serv-c"><span>Blogging & Content Writing</span> Services</div>
+                                    </div>
+                                </a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -101,7 +135,7 @@ $this->load->view('layout/header');
                 <div class="col-lg-10">
                     <div class="common-heading">
                         <span class="">We Are Creative Agency</span>
-                        <h1 class="mb30 text-radius text-light text-animation bg-b">Costco International <br/>MULTI SOLUTION COMPANY
+                        <h1 class="mb30 text-radius text-light text-animation bg-b text-uppercase" >Costco International Limited<br/><span class="font35">MULTI SOLUTION COMPANY</span>
                         </h1>
                         <p>We provides a broad, deep spectrum of technology services to help organizations translate their strategic business agendas into IT initiatives and solutions that measurably improve performance.</p>
                     </div>
@@ -112,10 +146,10 @@ $this->load->view('layout/header');
             $solutionsList = [
                 array("title" => "Artificial intelligence", "image" => "ai-icon.svg", "class" => "cd1"),
                 array("title" => "Business ERP Solutions", "image" => "icon-6.png", "class" => "cd2"),
-                array("title" => "IT Solutions & Consultant", "image" => "icon-12.png", "class" => "cd3"),
+                array("title" => "IT Solutions & Consultancy", "image" => "icon-12.png", "class" => "cd3"),
                 array("title" => "Business Hosting & Email Services", "image" => "hosing-icon.svg", "class" => "cd4"),
                 array("title" => "Software Design & Development", "image" => "webdevsvg.svg", "class" => "cd5"),
-                array("title" => "Mobile App Developmen", "image" => "mobileapp.svg", "class" => "cd6"),
+                array("title" => "Mobile Apps Development", "image" => "mobileapp.svg", "class" => "cd6"),
                 array("title" => "Social Media Marketing", "image" => "icon-1.png", "class" => "cd7"),
                 array("title" => "Digital Marketing", "image" => "icon-2.png", "class" => "cd8"),
                 array("title" => "Ecommerce Development", "image" => "icon-3.png", "class" => "cd1"),
@@ -125,7 +159,7 @@ $this->load->view('layout/header');
                 array("title" => "Direct Marketing", "image" => "d-mkrt.svg", "class" => "cd5"),
                 array("title" => "Blogging - Content Writing", "image" => "blog.svg", "class" => "cd6"),
                 array("title" => "Business Accounting", "image" => "icon-5.png", "class" => "cd7"),
-                array("title" => "Education Consultant Services", "image" => "icon-7.png", "class" => "cd8"),
+                array("title" => "Education Consultancy Services", "image" => "icon-7.png", "class" => "cd8"),
             ];
             ?>
 
@@ -170,7 +204,7 @@ $this->load->view('layout/header');
                     </p>
                     <p class="quote">With a strong focus on Retail, Consumer Goods and Logistics industries, we are creating strategic long term relationships with our customers, making a difference to them through our offices in many countries across US, Europe and Asia. </p>
                     <div class="user- mt30">
-                       
+
                     </div>
                 </div>
             </div>
@@ -184,41 +218,84 @@ $this->load->view('layout/header');
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="common-heading">
-                    <span>Services We’re Provided</span>
+                    <span>Services We’re Providing</span>
                     <h2 class="mb30">Our Core Design & Development Services</h2>
                 </div>
             </div>
         </div>
+        <?php
+        $serviceslist = [
+            array(
+                "title" => "Business & Branding Services",
+                "image" => "branding.svg",
+                "body" => "We provide a robust and professional toolset to build ultra-modern<br/> experiences of working.",
+                "speed" => "0.8s"
+            ),
+            array(
+                "title" => "Web Apps Design & Development",
+                "image" => "development.svg",
+                "body" => "Proficient Web application developers who make app<br/> development seem effortless.",
+                "speed" => "0.8s"
+            ),
+            array(
+                "title" => "Mobile Apps Development",
+                "image" => "app.svg",
+                "body" => "We provide bespoke Mobility Solutions in Native Apps, Cross <br/>platform app and Web apps.",
+                "speed" => "0.8s"
+            ),
+            array(
+                "title" => "Digital Marketing Services",
+                "image" => "marketing.svg",
+                "body" => "We analys brand positioning and create more custom strategy that brings in desired results.",
+                "speed" => "0.8s"
+            ),
+//            array(
+//                "title" => "Business & Branding Services",
+//                "image" => "branding.svg",
+//                "body" => "We provide a robust and professional toolset to build ultra-modern<br/> experiences of working.",
+//                "speed" => "1s"
+//            ),
+//            array(
+//                "title" => "Web Apps Design & Development",
+//                "image" => "development.svg",
+//                "body" => "Proficient Web application developers who make app<br/> development seem effortless.",
+//                "speed" => "1s"
+//            ),
+//            array(
+//                "title" => "Mobile Apps Development",
+//                "image" => "app.svg",
+//                "body" => "We provide bespoke Mobility Solutions in Native Apps, Cross <br/>platform app and Web apps.",
+//                "speed" => "1s"
+//            ),
+//            array(
+//                "title" => "Digital Marketing Services",
+//                "image" => "marketing.svg",
+//                "body" => "We analys brand positioning and create more custom strategy that brings in desired results.",
+//                "speed" => "1s"
+//            ),
+        ];
+        ?>
+
         <div class="row upset link-hover shape-num justify-content-center">
-            <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.2s">
-                <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                    <div class="s-card-icon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/branding.svg" alt="service" class="img-fluid"/></div>
-                    <h4>Business & Branding Services</h4>
-                    <p>We provide a robust and professional toolset to build ultra-modern<br/> experiences of working.</p>
+
+            <?php
+            foreach ($serviceslist as $key => $value) {
+                ?>
+
+                <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="<?php echo $value['speed']; ?>">
+                    <div class="s-block mb0" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                        <div class="s-card-icon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/<?php echo $value['image']; ?>" alt="service" class="img-fluid"/></div>
+                        <h4><?php echo $value['title']; ?></h4>
+                        <p><?php echo $value['body']; ?></p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.4s">
-                <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                    <div class="s-card-icon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/development.svg" alt="service" class="img-fluid"/></div>
-                    <h4>Web App Design & Development</h4>
-                    <p>Proficient Web application developers who make app<br/> development seem effortless.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
-                <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                    <div class="s-card-icon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/app.svg" alt="service" class="img-fluid"/></div>
-                    <h4>Mobile App Development</h4>
-                    <p>We provide bespoke Mobility Solutions in Native Apps, Cross <br/>platform app and Web apps.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.8s">
-                <div class="s-block mb0" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                    <div class="s-card-icon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/marketing.svg" alt="service" class="img-fluid"/></div>
-                    <h4>Digital Marketing Services</h4>
-                    <p>We analys brand positioning and create more custom strategy that brings in desired results. </p>
-                </div>
-            </div>
+                <?php
+            }
+            ?>
+
         </div>
+
+
         <div class="-cta-btn mt70">
             <div class="free-cta-title v-center wow zoomInDown" data-wow-delay=".9s">
                 <p>Hire a <span>Dedicated Developer</span></p>
