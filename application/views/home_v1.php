@@ -6,208 +6,126 @@ $this->load->view('layout/header');
 
 <!--End Header -->
 <!--Start Hero-->
-<section class="hero-card-web bg-gradient12 shape-bg3" style="height: fit-content">
+<section class="hero-card-web bg-gradient12 shape-bg3">
     <div class="hero-main-rp container-fluid">
+     
+        
+        
         <div class="row">
-
-
-            <div class="col-lg-6" style="border-right: 5px solid #0000004a;">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="wow fadeIn upperheading2 mb-3" data-wow-delay="0.2s">Top Rated Software & Mobile App Development Company</h1>
-
-
-                        <h1 class="wow fadeInUp text-effect-1" data-wow-delay=".2s">We Build Scalable & Smart Solution</h1>
-                        <!--                        <h1 class="mb30 upperheading text-radius text-uppercase" data-wow-delay="0.6s">
-                                                    Software solutions for transforming and innovating businesses.
-                                                </h1>-->
-
-                    </div>
-                    <div class="col-lg-12 mb-5">
-                        <div class="hero-right-scmm">
-                            <div class="hero-service-cards wow fadeInLeft" data-wow-duration="2s" >
-                                <div class="owl-carousel service-card-prb2">
-                                    <div class="service-slide card-bg-a" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                                        <a href="#">
-                                            <div class="service-card-hh">
-                                                <div class="image-sr-mm">
-                                                    <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/mob-service-item3.png">
-                                                </div>
-                                                <div class="title-serv-c"><span>Software Design & Development</span> Solutions</div>
-                                            </div>
-                                        </a>
+            <div class="col-lg-5">
+                <div class="hero-heading-sec">
+                    <h2 class="wow fadeIn" data-wow-delay="0.3s">
+                        <span>Artificial intelligence</span>
+                        <span>IT CONSULTANCY</span>
+                        <span>ERP SOLUTIONS</span>
+                        <span>Software Development</span>
+                        <span>Social Media Marketing</span>
+                        <span>Apps Development</span> 
+                        <span>Digital Marketing</span>
+                        <span>Graphics Designing</span> 
+                    </h2>
+                    <p class="wow fadeIn" data-wow-delay="0.6s">Software solutions for transforming and innovating businesses.</p>
+                    <a href="#" class="btn-main bg-btn lnk wow fadeIn"  data-wow-delay="0.8s">View Case Studies <i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="hero-content-sec wow fadeIn" data-wow-delay="0.8s">
+                    <div class="video-intro-pp"><a class="video-link play-video" href="https://www.youtube.com/watch?v=FTBek___Aco?autoplay=1&amp;rel=0"><span class="triangle-play"></span></a></div>
+                    <div class="title-hero-oth"><p>We design digital solutions <span>for brands and companies</span></p></div>
+                </div>
+                <div class="hero-right-scmm">
+                    <div class="hero-service-cards wow fadeInRight" data-wow-duration="2s">
+                        <div class="owl-carousel service-card-prb">
+                            <div class="service-slide card-bg-a" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
+                                    <div class="service-card-hh">
+                                        <div class="image-sr-mm">
+                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/mob-service-item3.png">
+                                        </div>
+                                        <div class="title-serv-c"><span>Software Design & Development</span> Solutions</div>
                                     </div>
-                                    <div class="service-slide card-bg-b" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                                        <a href="#">
-                                            <div class="service-card-hh">
-                                                <div class="image-sr-mm">
-                                                    <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/app-develop.png">
-                                                </div>
-                                                <div class="title-serv-c"><span>Custom</span> Mobile  Apps Solutions</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="service-slide card-bg-c" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                                        <a href="#">
-                                            <div class="service-card-hh">
-                                                <div class="image-sr-mm">
-                                                    <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/service-img-2.png">
-                                                </div>
-                                                <div class="title-serv-c"><span>IT Solutions & Consultancy</span> Services</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="service-slide card-bg-d" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                                        <a href="#">
-                                            <div class="service-card-hh">
-                                                <div class="image-sr-mm">
-                                                    <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/car-rental.png">
-                                                </div>
-                                                <div class="title-serv-c"><span>Integrated communications</span> Services</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="service-slide card-bg-e" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                                        <a href="#">
-                                            <div class="service-card-hh">
-                                                <div class="image-sr-mm">
-                                                    <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/marketing.png">
-                                                </div>
-                                                <div class="title-serv-c"><span>Business Marketing</span> Solutions</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="service-slide card-bg-f" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                                        <a href="#">
-                                            <div class="service-card-hh">
-                                                <div class="image-sr-mm">
-                                                    <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/seo.png">
-                                                </div>
-                                                <div class="title-serv-c"><span>SEO & Digital
-                                                        Marketing</span> Solutions</div>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="service-slide card-bg-c" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                                        <a href="#">
-                                            <div class="service-card-hh">
-                                                <div class="image-sr-mm">
-                                                    <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/videoediting.png">
-                                                </div>
-                                                <div class="title-serv-c"><span>Graphics & Video Editing</span> Services</div>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="service-slide card-bg-d" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                                        <a href="#">
-                                            <div class="service-card-hh">
-                                                <div class="image-sr-mm">
-                                                    <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/service-img-3.png">
-                                                </div>
-                                                <div class="title-serv-c"><span>Blogging & Content Writing</span> Services</div>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                </div>
+                                </a>
                             </div>
+                            <div class="service-slide card-bg-b" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
+                                    <div class="service-card-hh">
+                                        <div class="image-sr-mm">
+                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/app-develop.png">
+                                        </div>
+                                        <div class="title-serv-c"><span>Custom</span> Mobile  Apps Solutions</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service-slide card-bg-c" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
+                                    <div class="service-card-hh">
+                                        <div class="image-sr-mm">
+                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/service-img-2.png">
+                                        </div>
+                                        <div class="title-serv-c"><span>IT Solutions & Consultancy</span> Services</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service-slide card-bg-d" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
+                                    <div class="service-card-hh">
+                                        <div class="image-sr-mm">
+                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/car-rental.png">
+                                        </div>
+                                        <div class="title-serv-c"><span>Integrated communications</span> Services</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service-slide card-bg-e" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
+                                    <div class="service-card-hh">
+                                        <div class="image-sr-mm">
+                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/marketing.png">
+                                        </div>
+                                        <div class="title-serv-c"><span>Business Marketing</span> Solutions</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service-slide card-bg-f" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
+                                    <div class="service-card-hh">
+                                        <div class="image-sr-mm">
+                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/seo.png">
+                                        </div>
+                                        <div class="title-serv-c"><span>SEO & Digital
+                                                Marketing</span> Solutions</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="service-slide card-bg-c" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
+                                    <div class="service-card-hh">
+                                        <div class="image-sr-mm">
+                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/videoediting.png">
+                                        </div>
+                                        <div class="title-serv-c"><span>Graphics & Video Editing</span> Services</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="service-slide card-bg-d" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                                <a href="#">
+                                    <div class="service-card-hh">
+                                        <div class="image-sr-mm">
+                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/service-img-3.png">
+                                        </div>
+                                        <div class="title-serv-c"><span>Blogging & Content Writing</span> Services</div>
+                                    </div>
+                                </a>
+                            </div>
+
                         </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="hero-heading-sec">
-                            <h2 class="wow fadeIn" data-wow-delay="0.3s">
-                                <span>Artificial intelligence</span>
-                                <span>IT CONSULTANCY</span>
-                                <span>ERP SOLUTIONS</span>
-                                <span>Software Development</span>
-                                <span>Social Media Marketing</span>
-                                <span>Apps Development</span> 
-                                <span>Digital Marketing</span>
-                                <span>Graphics Designing</span> 
-                            </h2>
-                            <p class="wow fadeIn" data-wow-delay="0.6s">Software solutions for transforming and innovating businesses.</p>
-                            <a href="#" class="btn-main bg-btn lnk wow fadeIn"  data-wow-delay="0.8s">View Case Studies <i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
-                        </div>
-                        <!--                    <h1 class="wow fadeInUp text-effect-1 text-effect-p1" data-wow-delay=".2s">We provide company registration and a wide range of corporate services in Hong Kong </h1>-->
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="row">
-                    <div class="col-lg-12 mb-5">
-
-
-                        <h1 class="wow fadeIn upperheading2 mb-3" data-wow-delay="0.2s" style="">Start Your Business</h1>
-                        <h1 class="wow fadeInUp text-effect-1 text-effect-p1" data-wow-delay=".2s">We Are Providing One-stop Business Solutions </h1>
-
-
-                    </div>
-                    <!--                    <div class="col-lg-12 v-center h-scl-">
-                                            <div class="img-block-ca2 text-center h-scl-base m-mt30">
-                                                <img src="<?php echo base_url(); ?>assets/theme/images/about/digital-agency-dg.jpg" alt="about" class="abt-ca2" />
-                                                <div class="shape-dg-1 dg-hero-shp1"><img src="<?php echo base_url(); ?>assets/theme/images/shape/dots-dg.png" alt="shape" class="img-fluid dot-sp-ca2"></div>
-                                            </div>
-                                        </div>-->
-
-                    <div class="col-lg-12">
-
-
-                        <div class="hero-heading-sec2">
-                            <h2 class="wow fadeInRight" data-wow-delay="0.3s">
-                                <?php
-                                $keywordsbusiness = [
-                                    'COMPNAY FORMATION',
-                                    'COMPNAY SECRETRAIAL SERVICES',
-                                    'Taxation',
-                                    'ACCOUNTING',
-                                    'BOOK KEEPING',
-                                    'VISA & IMIGRATION CONSULTACY',
-                                    'VIRTUAL OFFICE',
-                                    'LEAGAL ADVISORY',
-                                    'CORPORATE ADMINISTRATION',
-                                    'BANK ACCOUNT OPENING',
-                                    'Notarize & Legalize Documents',
-                                    'Trademark Registration',
-                                    'Address & Mail Forwarding',
-                                    'Transfer an Existing Company'
-                                ];
-                                foreach ($keywordsbusiness as $key => $value) {
-                                    echo "<span class='bg-btn2'>$value</span>";
-                                }
-                                ?>
-
-
-                            </h2>
-                            <br/>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 mb-5 ">
-                        <div class="hero-heading-sec">
-                            <p class="wow fadeIn" data-wow-delay="0.6s">We provide company registration and a wide range of corporate services in Hong Kong.</p>
-                            <a href="#" class="btn-main bg-btn lnk wow fadeIn"  data-wow-delay="0.8s">Contact Us <i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class=" v-center tilt-3d">
-                            <div class="img-with-shape base" data-tilt="" data-tilt-max="8" data-tilt-speed="2000" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
-                                <div class="shape-dg-1 dg-hero-shp2"><img src="<?php echo base_url(); ?>assets/theme/images/shape/shape-dg-1.png" alt="shape" class="img-fluid niwax" data-rellax-speed="-3" style="transform: translate3d(0px, 0px, 0px);"></div>
-                                <img src="<?php echo base_url(); ?>assets/theme/images/about/digi-agency-dg.jpg" alt="digital agency" class="img-fluid dg-hero-img0">
-                                <div class="shape-dg-1 dg-hero-shp1a"><img src="<?php echo base_url(); ?>assets/theme/images/shape/dots-dg.png" alt="shape" class="img-fluid niwax" data-rellax-speed="-6" style="transform: translate3d(0px, 0px, 0px);"></div>
-                                <div class="shape-dg-1 dg-hero-shp3"><img src="<?php echo base_url(); ?>assets/theme/images/shape/shape-dg-2.png" alt="shape" class="img-fluid niwax" data-rellax-speed="4" style="transform: translate3d(0px, 0px, 0px);"></div>
-                            </div>
-                        </div>
-                    </div>   
-
-
-                </div>
-
-            </div>
-
         </div>
     </div>
-
 </section>
 <!--End Hero-->
 
@@ -277,7 +195,7 @@ $this->load->view('layout/header');
         <div class="row">
             <div class="col-lg-6 v-center">
                 <div class="image-block">
-                    <img src="<?php echo base_url(); ?>assets/theme/images/service/softwaredevelopment.jpg" alt="about" class="img-fluid no-shadow" />
+                    <img src="<?php echo base_url(); ?>assets/theme/images/about/about-service.png" alt="about" class="img-fluid no-shadow" />
                 </div>
             </div>
             <div class="col-lg-6">
