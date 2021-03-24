@@ -158,14 +158,14 @@ $this->load->view('layout/header');
                             <h2 class="wow fadeInRight" data-wow-delay="0.3s">
                                 <?php
                                 $keywordsbusiness = [
-                                    'COMPNAY FORMATION',
-                                    'COMPNAY SECRETRAIAL SERVICES',
+                                    'COMPANY FORMATION',
+                                    'COMPANY SECRETRAIAL SERVICES',
                                     'Taxation',
                                     'ACCOUNTING',
                                     'BOOK KEEPING',
                                     'VISA & IMIGRATION CONSULTACY',
                                     'VIRTUAL OFFICE',
-                                    'LEAGAL ADVISORY',
+                                    'LEGAL ADVISORY',
                                     'CORPORATE ADMINISTRATION',
                                     'BANK ACCOUNT OPENING',
                                     'Notarize & Legalize Documents',
