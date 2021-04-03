@@ -22,8 +22,8 @@ class BusinessSolution extends CI_Controller {
     function taxation() {
         $this->load->view('BusinessSolution/taxation');
     }
-    function taxation() {
-        $this->load->view('BusinessSolution/taxation');
+    function immigration() {
+        $this->load->view('BusinessSolution/immigration');
     }
 
 }
