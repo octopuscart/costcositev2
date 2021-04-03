@@ -141,3 +141,17 @@
     -moz-background-clip: text;
     background-clip: text;
 }
+
+.sub-menu-column ul li a {
+    width: 100%;
+    font-size: 15px;
+    color: #050748;
+    position: relative;
+    line-height: 25px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff5722;
+    font-weight: 600;
+}
+
+.sub-menu-column .menuheading {
+    color: #ff5722;}

@@ -58,5 +58,12 @@ $route['privacy-policy'] = 'Shop/privacy_policy';
 $route['mask/(:any)'] = 'Pages/mask/$1';
 $route['protection/(:any)'] = 'Pages/protection/$1';
 $route['services/(:any)'] = 'Pages/services/$1';
+$route['service/artificial-intelligence-solution'] = 'ItSolutions/artificial_intelligence';
+
+$route['service/company-formation'] = 'BusinessSolution/company_formation';
+$route['service/secretarial-service'] = 'BusinessSolution/secretarial_service';
+$route['service/accounting-and-taxation'] = 'BusinessSolution/taxation';
+
+
 
 $route['translate_uri_dashes'] = FALSE;
