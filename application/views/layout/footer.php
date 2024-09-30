@@ -42,8 +42,8 @@
                         <img src="<?php echo base_url(); ?>assets/theme/images/location/uk.png" alt="rome" class="img-fluid" />
                     </div>
                     <div class="office-text">
-                        <h4>Stoke Orchard, UK</h4>
-                        <p>The Old Mill, Bandy Lane,  <br/>Stoke Orchard, Gloucestershire,  <br/>GL 52 7SJ, U.K</p>
+                        <h4>London, UK</h4>
+                        <p>33 Ebury Street, <br/>London SW1W 0NY,  U.K</p>
                         <a href="#" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
