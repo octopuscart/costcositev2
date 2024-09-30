@@ -43,7 +43,7 @@
                     </div>
                     <div class="office-text">
                         <h4>London, UK</h4>
-                        <p>33 Ebury Street, <br/>London SW1W 0NY,  U.K</p>
+                        <p>33 Ebury Street, <br/>London SW1W 0NY,  <br/>U.K</p>
                         <a href="#" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
